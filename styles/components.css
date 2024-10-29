@@ -1,17 +1,20 @@
 /* UI Components */
 .try-btn {
-    padding: 8px 12px;
+    padding: 0.3rem 0.6rem;
     background-color: #000;
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 0.25rem;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
 }
 
 /* Image components */
 .hero-image, .feature-image {
     width: 100%;
-    height: 200px;
-    background-color: #e0e0e0;
+    height: 25rem;
+    background-color: #f6f6f6;
 }
 
 /* Feature components */

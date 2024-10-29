@@ -21,7 +21,7 @@ body {
 
 .heading-medium {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #979797;
 }
 
@@ -35,6 +35,5 @@ body {
     padding-top: 2rem;
     padding-bottom: 2.5rem;
     width: 100%;
-    background-color: #f0f0f0;
 }
 

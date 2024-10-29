@@ -24,7 +24,7 @@ header {
 
 .hero {
     padding-top: 2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -36,46 +36,40 @@ header {
     background-color: #F6F6F6;
 }
 
-.quote {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
-    width: 80%;
-}
-
-.features {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 20px 0;
-}
-
 .feature {
-    margin: 10rem 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
+    margin-bottom: 10rem;
+}
+
+.feature:last-child {
+    margin-bottom: 0;
 }
 
 .feature-content {
-    margin: 5rem 0;
+    margin: 3rem 0;
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
 .feature-text {
-    flex: 4;
+    flex: 3.3;
 }
 
 .feature-image {
-    flex: 6;
+    flex: 6.6;
     min-height: 300px;
-    background-color: #f0f0f0;
+    background-color: #F6F6F6;
 }
 
 .feature-text ul {
     text-align: left;
-    list-style-position: inside; /* This ensures bullets/numbers align properly */
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .feature-text li {
