@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+.heading {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+
+.heading-large {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
