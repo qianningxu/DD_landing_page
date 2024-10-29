@@ -1,0 +1,83 @@
+/* Reset basic margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 55vw;
+    margin: 0 auto;
+}
+
+/* Layout components */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 2rem 0;
+    z-index: 1000;
+}
+
+.hero {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-image {
+    min-height: 30rem;
+    background-color: #F6F6F6;
+}
+
+.quote {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    width: 80%;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.feature {
+    margin: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-content {
+    margin: 5rem 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.feature-text {
+    flex: 4;
+}
+
+.feature-image {
+    flex: 6;
+    min-height: 300px;
+    background-color: #f0f0f0;
+}
+
+.feature-text ul {
+    text-align: left;
+    list-style-position: inside; /* This ensures bullets/numbers align properly */
+}
+
+.feature-text li {
+    text-align: left;
+}
