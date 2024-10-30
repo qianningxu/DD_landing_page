@@ -25,7 +25,7 @@ header {
 
 .hero {
     padding-top: 2rem;
-    padding-bottom: 12rem;
+    padding-bottom: 10rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -40,18 +40,13 @@ header {
 .feature {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     margin-bottom: 10rem;
 }
 
-.feature:last-child {
-    margin-bottom: 0;
-}
 
 .feature-content {
-    margin: 3rem 0;
     display: flex;
-    gap: 30px;
     align-items: center;
 }
 
@@ -70,7 +65,7 @@ header {
     list-style-position: inside;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .feature-text li {
