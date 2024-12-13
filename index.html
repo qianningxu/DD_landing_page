@@ -10,66 +10,59 @@
   <script src="scripts/main.js" defer></script>
 </head>
 <body>
-  <!-- Header Section -->
+  <!-- Header and Hero section first -->
   <header>
-    <div class="logo">DeepDraft</div>
-    <button class="try-btn">Try for free</button>
+    <div class="logo">
+      <img src="assets/logo.svg" alt="Logo">
+      <span>Easydraft</span>
+    </div>
+    <button class="try-btn">Beta access</button>
   </header>
-  
-  <!-- Hero Section -->
-  <main>
-    <section class="hero">
-      <h1 class="heading heading-large">Turn scattered ideas into<br>a flowing article.</h1>
-      <p>A non-linear editor to freely create, develop and assemble your ideas.</p>
-      <div class="hero-image"></div>
-    </section>
-    
-    <!-- Features Section -->
-    <section class="features section-gap">
-      <!-- Feature 1 -->
-      <div class="feature">
-        <h1 class="heading heading-second-large">Capture ideas with cards.</h1>
-        <div class="feature-content">
-          <div class="feature-text">
-            <ul>
-              <li><span class="heading heading-medium">Write</span></li>
-              <li><span class="heading heading-medium">Connect</span></li>
-              <li><span class="heading heading-medium">Assemble</span></li>
-            </ul>
-          </div>
-          <div class="feature-image"></div>
-        </div>
+
+  <section class="hero">
+    <div class="left">
+      <h1 class="heading heading-large">Write first,<br> draft later.</h1>
+      <p class="text-large">A non-linear editor to effortlessly create deep, insightful writings.</p>
+      <button class="try-btn">Beta access</button>
       </div>
-      
-      <!-- Feature 2 -->
-      <div class="feature">
-        <h1 class = "heading heading-second-large">Never getting stuck.</h1>
-        <div class="feature-content">
-          <div class="feature-text">
-          <ul>
-            <li><span class="heading heading-medium">Get ideas</span></li>
-            <li><span class="heading heading-medium">Get outline</span></li>
-            </ul>
-          </div>
-          <div class="feature-image"></div>
-        </div>
-      </div>
-      
-      <!-- Feature 3 -->
-      <div class="feature">
-        <h1 class = "heading heading-second-large">And more ways to play.</h1>
-        <div class = "feature-content">
-          <div class = "feature-text">
-            <ul>
-              <li><span class="heading heading-medium">Split</span></li>
-              <li><span class="heading heading-medium">Merge</span></li>
-              <li><span class="heading heading-medium">Query</span></li>
-            </ul>
-          </div>
-          <div class="feature-image"></div>
-        </div>
-      </div>
-    </section>
-  </main>
+    <div class="right">
+      <video autoplay loop muted playsinline>
+        <source src="assets/hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>      
+    </div>
+  </section>
+
+  <!-- Split layout container after hero -->
+  <div class="container">
+    <div class="left-panel">
+      <section class="section_one" data-gif="assets/demo1.mp4">
+        <h2 class="heading heading-medium">Write without limits.</h2>
+        <p class="text-medium">Simply drop down whatever is on your mind, and they will find their place later on.</p>
+      </section>
+
+      <section class="section" data-gif="assets/demo2.mp4">
+        <h2 class="heading heading-medium">Use connections to make ideas flow.</h2>
+        <p class="text-medium">Visualize different kinds of relationship between cards.</p>
+      </section>
+
+      <section class="section" data-gif="assets/demo3.mp4">
+        <h2 class="heading heading-medium">Develop your narrative in a group.</h2>
+        <p class="text-medium">Arrange cards into concept map that is easy to understand.</p>
+      </section>
+
+      <section class="section" data-gif="assets/demo4.mp4">
+        <h2 class="heading heading-medium">Stack cards up to form an article.</h2>
+        <p class="text-medium">Assemble cards linearly to output as paragraphs, sections or articles.</p>
+      </section>
+    </div>
+
+    <div class="right-panel">
+      <video id="gif-display" class="gif-display" autoplay loop muted playsinline>
+        <source src="assets/demo1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
 </body>
 </html>
