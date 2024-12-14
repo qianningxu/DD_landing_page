@@ -54,7 +54,7 @@ header {
 }
 
 .section_one {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
   scroll-snap-align: start;
   display: flex;
@@ -64,7 +64,7 @@ header {
 }
 
 .section {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
   scroll-snap-align: start;
   display: flex;
