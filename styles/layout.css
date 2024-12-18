@@ -51,6 +51,7 @@ header {
     margin: 0 auto;
     display: flex;
     padding: 2rem;
+    padding-bottom: 15vh;  
 }
 
 .section_one {
@@ -72,6 +73,12 @@ header {
   justify-content: center;
   gap: 2rem;
 }
+
+.section:last-of-type {
+  min-height: 75vh;
+  padding-bottom: 15vh;  
+}
+
 
 .left-panel {
     width: 40%;

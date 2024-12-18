@@ -37,7 +37,13 @@
     max-height: 50vh;
     object-fit: contain;
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: all 0.25s cubic-bezier(0.3, 0, 0.2, 1);  
+    will-change: opacity, transform;  
+}
+
+.gif-display.fade {
+    opacity: 0;
+    transform: scale(0.995);
 }
 
 .hero video {
