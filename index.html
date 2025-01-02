@@ -21,39 +21,48 @@
 
   <section class="hero">
     <div class="left">
-      <h1 class="heading heading-large">Write first,<br> arrange later.</h1>
+      <h1 class="heading heading-large">Write first,<br>draft later.</h1>
       <p class="text-large">A non-linear editor to effortlessly create insightful writings.</p>
-      <a href="https://www.easydraft.app" target="_blank" class="try-btn" style="text-decoration: none;">Beta access</a>
+      <div class="buttons">
+        <a href="https://www.easydraft.app" target="_blank" class="try-btn" style="text-decoration: none;">Beta access</a>
+        <a href="https://discord.gg/easydraft" target="_blank" class="discord_button">Join discord</a>
       </div>
+    </div>
     <div class="right">
-      <video autoplay loop muted playsinline>
-        <source src="assets/hero.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>      
+      <div class="slideshow">
+        <img src="assets/hero1.png" alt="Hero image 1" class="slide">
+        <img src="assets/hero2.png" alt="Hero image 2" class="slide">
+        <img src="assets/hero3.png" alt="Hero image 3" class="slide">
+        <div class="slide-dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
     </div>
   </section>
-
+  
   <!-- Split layout container after hero -->
   <div class="container">
     <div class="left-panel">
-      <section class="section_one" data-gif="assets/demo1.mp4">
-        <h2 class="heading heading-medium">Write without limits.</h2>
-        <p class="text-medium">Simply drop down whatever is on your mind, and they will find their place later on.</p>
+      <section class="section" data-gif="assets/demo1.mp4">
+        <h2 class="heading heading-medium">Drop down whatever.</h2>
+        <p class="text-medium">Capture ideas with cards, and they will find their place later on.</p>
       </section>
 
       <section class="section" data-gif="assets/demo2.mp4">
-        <h2 class="heading heading-medium">Use connections to make ideas flow.</h2>
-        <p class="text-medium">Visualize different kinds of relationship between cards.</p>
+        <h2 class="heading heading-medium">Let ideas flow.</h2>
+        <p class="text-medium" >Draw connections between cards to give them a quick sort.</p>
       </section>
 
       <section class="section" data-gif="assets/demo3.mp4">
-        <h2 class="heading heading-medium">Develop your narrative in a group.</h2>
-        <p class="text-medium">Arrange cards into concept map that is easy to understand.</p>
+        <h2 class="heading heading-medium">Develop your narrative.</h2>
+        <p class="text-medium">Combine connected cards into larger, more meaningful units.</p>
       </section>
 
       <section class="section" data-gif="assets/demo4.mp4">
-        <h2 class="heading heading-medium">Stack cards up to form an article.</h2>
-        <p class="text-medium">Assemble cards linearly to output as paragraphs, sections or articles.</p>
+        <h2 class="heading heading-medium">Form an article.</h2>
+        <p class="text-medium">Linearize groups of cards into paragraphs, sections or articles.</p>
       </section>
     </div>
 
@@ -64,5 +73,32 @@
       </video>
     </div>
   </div>
+
+  <div class="vertical_box">
+    <h2 class="heading heading-medium">Blog</h2>
+    <section class="blog">
+      <div class="blog_items">
+        <a href="https://medium.com/@ricardoxu03/why-do-we-need-non-linear-writing-tools-bbb183efb7df">
+          <img src="assets/image_3.png" alt="Blog Image 1">
+          <h3 class="text-small">Why do we need non-linear writing tools?</h3>
+        </a>
+      </div>
+
+      <div class="blog_items">
+        <a href="https://medium.com/@ricardoxu03/one-of-the-most-common-questions-i-encounter-is-how-is-easydraft-different-from-other-whiteboard-d0a8e6d358bd">
+          <img src="assets/image_1.png" alt="Blog Image 1">
+          <h3 class="text-small">Yet another hetpabase copy?</h3>
+        </a>
+      </div>
+
+      <div class="blog_items">
+        <a href="https://medium.com/@ricardoxu03/7-principles-of-good-writing-47586b360966">
+          <img src="assets/image_2.jpg" alt="Blog Image 1">
+          <h3 class="text-small">7 principles of good writing</h3>
+        </a>
+      </div>
+    </section>
+  </div>
+
 </body>
 </html>
