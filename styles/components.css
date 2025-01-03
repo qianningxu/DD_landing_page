@@ -96,7 +96,7 @@
 
 .slide-dots {
     position: absolute;
-    bottom: 2rem;
+    bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -105,8 +105,8 @@
 }
 
 .dot {
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 0.4rem;
+    height: 0.4rem;
     background-color: white;
     border-radius: 50%;
     cursor: pointer;

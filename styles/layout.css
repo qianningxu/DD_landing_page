@@ -88,11 +88,11 @@ header.scrolled {
 .left-panel {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    width: 50%;
+    width: 40%;
 }
 
 .right-panel {
-    width: 50%;
+    width: 60%;
     height: 100vh;
     position: sticky;
     top: 0;
@@ -126,7 +126,6 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 }
 
 .blog_items img {
@@ -137,7 +136,7 @@ a {
 .blog_items a {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     text-decoration: none;
 }
 
